@@ -1,0 +1,24 @@
+.four04__header {
+  height: 68px
+}
+
+.four04__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.four04__img-container {
+  padding: 100px 0 0 0;
+}
+
+.four04__wrapper h1 {
+  font-weight: 700;
+  padding: 50px 0 10px 0;
+}
+
+.four04__description {
+  color: var(--white);
+}

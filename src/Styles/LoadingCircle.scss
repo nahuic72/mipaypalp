@@ -1,0 +1,16 @@
+.loading-circle {
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-circle path {
+  fill: linear-gradient(90deg, #29efcb, #d9d9d9);
+}

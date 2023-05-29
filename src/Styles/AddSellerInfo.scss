@@ -1,0 +1,54 @@
+.add-seller__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 42px 16px 0;
+  height: 615px; 
+  position: relative;
+  transition: all .5s ease-in;
+}
+
+.add-seller__text-aux {
+  color: var(--diasble-text);
+  padding: 3px 12px 0;
+  width: 100%;
+}
+
+.add-seller__spacer-1 {
+  height: 36px;
+}
+
+.add-seller__category {
+  padding: 30px 0 0 0;
+}
+
+.add-seller__radio-wrapper {
+  padding: 23px 0 0 0;
+}
+
+.add-seller__radio-title {
+  padding: 0 0 12px 0;
+}
+
+.add-seller__radio-option {
+  padding: 10px 0 10px 22px;
+  display: flex;
+}
+
+.add-seller__radio-option label {
+  padding: 0 0 0 28px;
+}
+
+.add-seller__submit-btn {
+  margin: 34px 0 0 0;
+}
+
+.add-seller__store-address {
+  padding: 20px 0 0 0;
+}
+
+.add-seller__optional-fields {
+  /* opacity: 0; */
+  transition: all .5s ease-in;
+}
